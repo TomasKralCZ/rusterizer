@@ -1,0 +1,19 @@
+[package]
+name = "rusterizer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+softbuffer = "0.1.0"
+cgmath = "0.18.0"
+tobj = "3.2.0"
+eyre = "0.6.7"
+image = "0.24.1"
+winit = "0.26.1"
+
+[profile.release]
+#lto = true
+debug = true
+
+[profile.dev.package."*"]
+opt-level = 3
