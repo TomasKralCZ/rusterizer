@@ -1,6 +1,5 @@
 # Rusterizer
-A rewrite of a software rasterizer I created as a part of a Computer graphics class at University of Hradec Králové. \
-The original was implemented in Java.
+A rewrite of a software rasterizer I created as a part of a Computer graphics class at University of Hradec Králové.
 
 # Build
 Requires nightly compiler due to me using the handy `array_chunks` feature.
